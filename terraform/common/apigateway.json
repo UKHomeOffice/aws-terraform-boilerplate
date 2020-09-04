@@ -1,0 +1,17 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "${environment}-component-api",
+    "version": "2018-03-15T12:02:24Z"
+  },
+  "servers": [
+    {
+      "variables": {
+        "basePath": {
+          "default": "/${environment}"
+        }
+      }
+    }
+  ],
+  "paths": {}
+}
